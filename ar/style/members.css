@@ -1,0 +1,15 @@
+* {
+    --main-color: #039BE6;
+}
+body {
+    text-align: center;
+}
+.content-bg {
+    margin: 15px;
+    display: inline-block;
+    text-align: center;
+}
+.content-bg img {
+    border-radius: 50%;
+    width: 200px;
+}
