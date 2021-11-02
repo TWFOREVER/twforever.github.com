@@ -2,12 +2,13 @@
     --main-color: #039BE6;
 }
 .logo img {
+    border: solid 5px green;
     border-radius: 50%;
     margin-top: 10px;
 }
 .acc {
     text-decoration: none;
-    color: #000;
+    color: crimson;
 }
 .acc:hover,
 .acc:active {
