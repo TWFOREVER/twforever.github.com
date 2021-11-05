@@ -2,9 +2,16 @@
     --main-color: #039BE6;
 }
 .logo img {
-    border: solid 5px green;
     border-radius: 50%;
     margin-top: 10px;
+    position: sticky;
+}
+.logo #logo {
+    right: 42.5%;
+}
+.logo #frame {
+    left: 41%;
+    width: 19%;
 }
 .acc {
     text-decoration: none;
