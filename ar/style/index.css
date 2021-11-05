@@ -13,6 +13,36 @@
     left: 41%;
     width: 19%;
 }
+
+@media (min-width: 638px) {
+    .logo img {
+        border-radius: 50%;
+        margin-top: 10px;
+        position: sticky;
+    }
+    .logo #logo {
+        right: 42.5%;
+    }
+    .logo #frame {
+        right: 39.5%;
+        width: 19%;
+    }
+}
+@media (max-width: 692px) {
+    .logo img {
+        border-radius: 50%;
+        margin-top: 10px;
+        position: sticky;
+    }
+    .logo #logo {
+        right: 27.5%;
+    }
+    .logo #frame {
+        left: 24%;
+        width: 54%;
+    }
+}
+
 .acc {
     text-decoration: none;
     color: crimson;
