@@ -2,33 +2,10 @@
     --main-color: #039BE6;
 }
 
-@media (min-width: 638px) {
-    .logo img {
-        border-radius: 50%;
-        margin-top: 10px;
-        position: sticky;
-    }
-    .logo #logo {
-        left: 42.5%;
-    }
-    .logo #frame {
-        right: 40.5%;
-        width: 19%;
-    }
-}
-@media (max-width: 692px) {
-    .logo img {
-        border-radius: 50%;
-        margin-top: 10px;
-        position: sticky;
-    }
-    .logo #logo {
-        left: 28.5%;
-    }
-    .logo #frame {
-        right: 21%;
-        width: 54%;
-    }
+.logo img {
+    border: 3px solid lightblue;
+    border-radius: 50%;
+    margin-top: 10px;
 }
 .acc {
     text-decoration: none;
