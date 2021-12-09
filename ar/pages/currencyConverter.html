@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>العاب TW</title>
+        <title>محول العملات TW</title>
         <link rel="icon" href="../images/logo.jpg"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-jHiSqEim4+W1UCvv8kTcMbtCZlRF8MxbgKdfpvncia8gdN1UImBnhTpKtufREzv7" crossorigin="anonymous">
         <link rel="stylesheet" href="../style/navbar.css"/>
-        <link rel="stylesheet" href="../style/members.css"/>
+        <link rel="stylesheet" href="../style/currencyConverter.css"/>
     </head>
     <body class="bg-light text-dark">
         <!-- Navbar -->
@@ -38,15 +38,36 @@
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <a href="../../en/pages/games.html" class="btn btn-outline-success" type="button">الأنجليزية</a>
+                  <a href="../../en/pages/currencyConverter.html" class="btn btn-outline-success" type="button">الأنجليزية</a>
                 </form>
         </nav>
 
         <!-- Content -->
-
-        <h1>قريبا</h1>
+        <div class="col-md-5" style="margin: 2%;">
+          <div class="form-group" style="margin: 1%;">
+              <h2>من</h2>
+              <select onchange="Currency1(); Calculate()" class="form-control" id="converter1" style="width:30%;">
+                  <option value="Dollar">دولار</option>
+                  <option value="SAR">ريال سعودي</option>
+              </select>
+          </div>
+          <div class="form-group" style="margin: 1%;">
+          <h2>الى</h2>
+          <select onchange="Currency2(); Calculate()" class="form-control" id="converter2" style="width:30%;">
+              <option value="Dollar">دولار</option>
+              <option value="SAR">ريال سعودي</option>
+          </select>
+          </div>
+          <div class="form-group" style="margin: 1%;">
+              <input type="number" oninput="Calculate()" placeholder="المبلغ" class="form-control" id="value1"/>
+          </div>
+          <div class="form-group" style="margin: 1%;">
+              <input type="number" class="form-control" id="value2" disabled/>
+          </div>
+        </div>
 
     </body>
+    <script src="../js/currencyConverter.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 
