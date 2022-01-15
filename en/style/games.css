@@ -1,0 +1,19 @@
+* {
+    --main-color: #039BE6;
+}
+body {
+    background-image: url(../images/games-back.jpg);
+    text-align: center;
+}
+.content-bg {
+    margin: 15px;
+    display: inline-block;
+    text-align: center;
+}
+.content-bg img {
+    border-radius: 50%;
+    width: 200px;
+}
+.content-bg img #tw_eyad{
+    border-radius: 50%;
+}
