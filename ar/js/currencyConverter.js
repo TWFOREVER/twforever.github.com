@@ -21,6 +21,6 @@ if(amount == ""){
 	else if(c1 == "SAR" && c2 == "Dollar"){ document.getElementById("value2").value = amount * 3.75; }
 	else if(c1 == "SAR" && c2 == "DBH"){ document.getElementById("value2").value = amount * 9.95; }
 	else if(c1 == "DBH" && c2 == "SAR"){ document.getElementById("value2").value = amount / 9.95; }
-	else if(c1 == "DBH" && c2 == "Dollar"){ document.getElementById("value2").value = amount / 9.95 * 3.75; }
+	else if(c1 == "DBH" && c2 == "Dollar"){ document.getElementById("value2").value = amount / 9.95 / 3.75; }
 }
 }
