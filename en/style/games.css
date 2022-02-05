@@ -2,7 +2,8 @@
     --main-color: #039BE6;
 }
 body {
-    background-image: url(../images/games-back.jpg);
+    background-image: url(../images/game-back.jpg);
+
     text-align: center;
 }
 .content-bg {

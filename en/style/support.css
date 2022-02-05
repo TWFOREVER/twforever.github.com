@@ -1,3 +1,5 @@
 * {
     --main-color: #039BE6;
 }
+body {    background-image: url(../images/support-back.jpg);
+}
