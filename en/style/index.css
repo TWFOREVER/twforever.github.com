@@ -1,6 +1,11 @@
 * {
     --main-color: #039BE6;
 }
+.media img {
+    height: 2.5%;
+    width: 2.5%;
+    border-radius: 50%;
+}
 .logo img {
     border: 3px solid lightblue;
     border-radius: 50%;
